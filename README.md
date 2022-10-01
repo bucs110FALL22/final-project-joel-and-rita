@@ -18,7 +18,7 @@ Wut Yee Pearl Phoo
 ## Project Description
 
 << Give an overview of your project >>
-We're going to be creating a platform user interactive game, which is similar to Mario Kart
+We're going to be creating a platform user interactive game, which is similar to Mario Bros.
 ***    
 
 ## User Interface Design
