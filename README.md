@@ -5,19 +5,20 @@
 ### << Semester, Year >>
 ### [Assignment Description](https://docs.google.com/document/d/1H4R6yLL7som1lglyXWZ04RvTp_RvRFCCBn6sqv-82ps/edit?usp=sharing)
 
-<< [repl](#) >>
+<< [repl](#) >> https://github.com/bucs110FALL22/final-project-joel-and-rita
 
 << [link to demo presentation slides](#) >>
 
 ### Team: << team name >>
 #### << Team Members >>
-
+Joel Luna
+Wut Yee Pearl Phoo
 ***
 
 ## Project Description
 
 << Give an overview of your project >>
-
+We're going to be creating a platform user interactive game, which is similar to Mario Kart
 ***    
 
 ## User Interface Design
