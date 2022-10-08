@@ -1,23 +1,21 @@
 :warning: Everything between << >> needs to be replaced (remove << >> after replacing)
 # CS110 Project Proposal
-# << Project Title >>
+# Rectangle Game     
 ## CS 110 Final Project
-### << Semester, Year >>
+### Fall, 2022
 ### [Assignment Description](https://docs.google.com/document/d/1H4R6yLL7som1lglyXWZ04RvTp_RvRFCCBn6sqv-82ps/edit?usp=sharing)
 
-<< [repl](#) >> https://github.com/bucs110FALL22/final-project-joel-and-rita
+Repl: https://github.com/bucs110FALL22/final-project-joel-and-rita
 
-<< [link to demo presentation slides](#) >>
+Slides: https://docs.google.com/presentation/d/195ai7whZlIho7L6MpM4LqHP6cM2Lj0mTdmjV-QE8Dac/edit?usp=sharing
 
-### Team: << team name >>
-#### << Team Members >>
-Joel Luna
-Wut Yee Pearl Phoo
+### Team: The Supreme Coders
+
+#### Joel Luna, Wut Yee Pearl Phoo
 ***
 
 ## Project Description
 
-<< Give an overview of your project >>
 We're going to be creating a platform user interactive game, which is similar to Mario Bros.
 ***    
 
@@ -25,6 +23,7 @@ We're going to be creating a platform user interactive game, which is similar to
 
 - **Initial Concept**
   - << A wireframe or drawing of the user interface concept along with a short description of the interface. You should have one for each screen in your program. For example, if your program has a start screen, game screen, and game over screen, you should include a wireframe / screenshot / drawing of each one and a short description of the components. >>
+  - RectangleGameDemo.png
     
     
 - **Final GUI**
