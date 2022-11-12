@@ -46,7 +46,7 @@ Class Player:
 
 ## Class Interface 2
 
-Class Coin
+Class Coin:
   def __init__(self, posx=0, posy=0, width, height, color):
     self.x = posx
     self.y = posy
@@ -62,7 +62,7 @@ Class Coin
 
 ## Class Interface 3
 
-Class Enemy
+Class Enemy:
   def __init__(self, posx, posy, width, height, color):
     self.x = posx
     self.y = posy

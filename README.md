@@ -34,15 +34,17 @@ We're going to be creating a platform user interactive game, which is similar to
 ## Program Design
 
 * Non-Standard libraries
-    * << You should have a list of any additional libraries or modules used (pygame, request) beyond non-standard python. 
-         For each additional module you should include
-         - url for the module documentation
-         - a short description of the module >>
+    Pygame:
+    https://www.pygame.org/docs/
+      pygame is a module that is used to create games with python.
 * Class Interface Design
     * << A simple drawing that shows the class relationships in your code (see below for an example). This does not need to be overly detailed, but should show how your code fits into the Model/View/Controller paradigm. >>
-        * ![class diagram](assets/class_diagram.jpg) 
+        * ![class diagram](assets/gameclass_diagram.png) 
 * Classes
-    * << You should have a list of each of your classes with a description. >>
+    Class Player: Creates main player where the user can interact with with game by inputting keys
+    Class Enemy: Creates enemies that moves left and right
+    Class Coin: Creates coins that can be collected by the player class
+    
 
 ## Project Structure and File List
 
