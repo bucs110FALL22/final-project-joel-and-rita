@@ -2,11 +2,13 @@ import pygame
 from src.Level import Level
 from src.playbutton import Button
 
+#Sets the gamescreen dimensions and color
 gameWidth = 640
 gameHeight = 360
 backgroundcolor = (0,0,0)
 gamestart = True
 
+#Speed for the images moving through the titlescreen
 maxspeed = 3
 midspeed = 2
 towerspeed = 2
@@ -18,10 +20,7 @@ pygame.init()
 gamescreen = pygame.display.set_mode((gameWidth,gameHeight))
 clock = pygame.time.Clock()
 
-#Load Music
-mainmusic = pygame.mixer.music.load("mainmenutheme.mp3")
-pygame.mixer.music.play(-1)
-#Loads Images
+#Loads Images and setting the posisitions
 titlesprite = pygame.image.load('assets/Sprites/TitleScreen/TitleScreen.png')
 titlesprite_rect = titlesprite.get_rect(center = [320,100])
 
@@ -49,16 +48,18 @@ topclouds2 = pygame.image.load('assets/Sprites/TitleScreen/topclouds.png')
 topclouds_rect2 = tower.get_rect(center = [1280,180])
 play = pygame.image.load('assets/Sprites/TitleScreen/Playbutton.png').convert_alpha()
 
-
+#sets the game state to 0 to play the game and the play/level button class
+game_state = 0
 play_button = Button(275, 250, play)
 
 Level = Level()
-		
 
+#runs the mainmenu
 class MainMenu:
 	def __init__(self):
 		pass
-
+#Players the menu once game_state = 0 and moves each image until reaching max boundaries
+#After the images touches the maxboundaries, it is sent back to its starting position to move again
 	def play(self):
 		game_state = 0
 		while gamestart == True:
@@ -123,15 +124,13 @@ class MainMenu:
 					topclouds_rect2.x = (maxboundaries/2)
 
 				gamescreen.blit(titlesprite,titlesprite_rect)
-
+        #Displays the play button
 				if play_button.draw(gamescreen):
-					print("go to level")
-					pygame.mixer.music.stop()
 					game_state = 1
-				#update screen
+				#if game_state = 1 the game moves onto the level
 			if game_state == 1:
 				Level.main(gamescreen)
-
+      #update screen
 			pygame.display.flip()
 			clock.tick(60)
 

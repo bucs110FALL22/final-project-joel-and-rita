@@ -1,21 +1,10 @@
-import pygame     
+import pygame        
 from src.mainmenu import MainMenu
 
-
-#Class Call
-game = MainMenu() 
-
 def main():
-	game.play() 
-    #Create an instance on your controller object
-    #Call your mainloop
-    ###### NOTHING ELSE SHOULD GO IN main(), JUST THE ABOVE 3 LINES OF CODE ######
+	#Class Call
+	game = MainMenu() 
+	game.play()
 
-# https://codefather.tech/blog/if-name-main-python/
 if __name__ == '__main__':
-    main()
-
-#test
-#all_sprites = pygame.sprite.Group(tuple(enemies) + (player, ))
-#all_sprites.draw(window)
-
+	main()

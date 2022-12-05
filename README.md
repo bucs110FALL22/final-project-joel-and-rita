@@ -7,7 +7,7 @@
 
 Repl: https://github.com/bucs110FALL22/final-project-joel-and-rita
 
-Slides: https://docs.google.com/presentation/d/195ai7whZlIho7L6MpM4LqHP6cM2Lj0mTdmjV-QE8Dac/edit?usp=sharing
+Slides: https://docs.google.com/presentation/d/1pHtiUgSAh_-SqB-I_52aSkTC_DIXeIVEB5euAW2OPGs/edit#slide=id.gca4537879_0_15
 
 ### Team: The Supreme Coders
 
@@ -57,12 +57,11 @@ The Project is broken down into the following file structure:
     * << all of your media, i.e. images, font files, etc, should go here) >>
 * etc
     * << This is a catch all folder for things that are not part of your project, but you want to keep with your project >>
-
 ***
 
 ## Tasks and Responsibilities 
-
-   * Outline the team member roles and who was responsible for each class/method, both individual and collaborative.
+Rita: Planning, setting the coins and bullet, and ending
+Joel: Planning, setting the player, ground and titlescreen
 
 ## Testing
 
@@ -72,6 +71,23 @@ The Project is broken down into the following file structure:
 
 | Step                 |Procedure             |Expected Results                   |
 |----------------------|:--------------------:|----------------------------------:|
-|  1                   | Run Counter Program  |GUI window appears with count = 0  |
-|  2                   | click count button   | display changes to count = 1      |
-etc...
+| Step 1                   
+| Procedure: Run the program, after troubleshooting and fixing errors | 
+| Expected Results: GUI Program appears on screen |
+
+| Step 2                  
+| Procedure: Press the controls to check if they perform their function correctly |
+| Expected Results: Player moves on game screen as it is supposed to |
+
+| Step 3                  
+| Procedure: Player collides with coins |
+| Expected Results: Score increases and coin disappears as player collects each coin |
+
+| Step 4                  
+| Procedure: Player collides with enemies, which are the bullets and the muncher on top of the tower |
+| Expected Results: Game over screen appears and player is prompted to start over or end game |
+
+| Step 5                  
+| Procedure: Player collects 4 coins |
+| Expected Results: Game over screen appears and player is prompted to start over or end game |
+
